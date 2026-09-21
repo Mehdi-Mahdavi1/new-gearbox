@@ -1,0 +1,27 @@
+{
+  "name": "automatic-transmission-repair-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx --yes serve@latest out",
+    "typecheck": "tsc --noEmit",
+    "preview": "npx --yes serve@latest out"
+  },
+  "dependencies": {
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/vazirmatn": "^5.3.0",
+    "@fontsource/vazirmatn": "^5.3.0",
+    "@types/node": "^26.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2"
+  }
+}
